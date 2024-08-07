@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+background-color: white;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: background 0.3s, color 0.3s, border-radius 0.3s;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background: #575757;
+    color: #f0f0f0;
+    text-decoration: none;
+    border-radius: 15px;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 10px;
+  font-style: normal;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.texo-des {
+  color: #868e96 !important;
+   text-transform: uppercase;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.text {
+    font-style: italic;
+    color: gray;
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.163);
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.card-eventos {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin: 0 auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-wrap: nowrap;
+    }
+}
